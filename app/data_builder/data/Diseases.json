@@ -1,0 +1,1072 @@
+[
+    {
+        "disease_code": "D001",
+        "disease_name": "Brain cancer",
+        "short_name": "Brain cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0006118"
+    },
+    {
+        "disease_code": "D002",
+        "disease_name": "Breast cancer",
+        "short_name": "Breast cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "Select all that apply",
+        "umls_id": "C0006142"
+    },
+    {
+        "disease_code": "D003",
+        "disease_name": "Colon/Colorectal cancer",
+        "short_name": "CRC",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0009402"
+    },
+    {
+        "disease_code": "D004",
+        "disease_name": "Colorectal polyps",
+        "short_name": "Polyps",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "Select all that apply",
+        "umls_id": "C0949059"
+    },
+    {
+        "disease_code": "D005",
+        "disease_name": "DCIS (ductal carcinoma in situ)",
+        "short_name": "DCIS",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "Select all that apply",
+        "umls_id": "C0007124"
+    },
+    {
+        "disease_code": "D006",
+        "disease_name": "Kidney cancer",
+        "short_name": "Kidney cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0740457"
+    },
+    {
+        "disease_code": "D007",
+        "disease_name": "Leukemia",
+        "short_name": "Leukemia",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0023418"
+    },
+    {
+        "disease_code": "D008",
+        "disease_name": "Melanoma",
+        "short_name": "Melanoma",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0025202"
+    },
+    {
+        "disease_code": "D009",
+        "disease_name": "Ovarian cancer",
+        "short_name": "Ovarian cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "f",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C1140680"
+    },
+    {
+        "disease_code": "D010",
+        "disease_name": "Pancreatic cancer",
+        "short_name": "Pancreatic cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0346647"
+    },
+    {
+        "disease_code": "D011",
+        "disease_name": "Prostate cancer",
+        "short_name": "Prostate cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "m",
+        "show": "always",
+        "main_question": "Was the prostate cancer any of the following?",
+        "umls_id": "C0376358"
+    },
+    {
+        "disease_code": "D012",
+        "disease_name": "Sarcoma",
+        "short_name": "Sarcoma",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C1261473"
+    },
+    {
+        "disease_code": "D013",
+        "disease_name": "Small intestine cancer",
+        "short_name": "Small intestine cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0153425"
+    },
+    {
+        "disease_code": "D014",
+        "disease_name": "Stomach/Gastric cancer",
+        "short_name": "Stomach/Gastric cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0024623"
+    },
+    {
+        "disease_code": "D015",
+        "disease_name": "Thyroid cancer",
+        "short_name": "Thyroid cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "Was the thyroid cancer any of the following types?",
+        "umls_id": "C0007115"
+    },
+    {
+        "disease_code": "D016",
+        "disease_name": "Ureter/Renal collecting system cancer",
+        "short_name": "Ureter/Renal col sys cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0153619"
+    },
+    {
+        "disease_code": "D017",
+        "disease_name": "Uterine/Endometrial cancer",
+        "short_name": "Uterine/Endometrial cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "f",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0153567"
+    },
+    {
+        "disease_code": "D018",
+        "disease_name": "Adrenal cancer",
+        "short_name": "Adrenal cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0750887"
+    },
+    {
+        "disease_code": "D019",
+        "disease_name": "Adrenocortical carcinoma",
+        "short_name": "Adrenocortical",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0206686"
+    },
+    {
+        "disease_code": "D020",
+        "disease_name": "Basal cell carcinoma (more than 5)",
+        "short_name": "BCC",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0007117"
+    },
+    {
+        "disease_code": "D021",
+        "disease_name": "Bile duct/Biliary tract cancer",
+        "short_name": "Biliary cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0750952"
+    },
+    {
+        "disease_code": "D022",
+        "disease_name": "Bronchial carcinoid tumor",
+        "short_name": "Bronchial carc",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0238035"
+    },
+    {
+        "disease_code": "D023",
+        "disease_name": "Choroid plexus carcinoma",
+        "short_name": "Choroid plex",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0431109"
+    },
+    {
+        "disease_code": "D024",
+        "disease_name": "Desmoid tumor",
+        "short_name": "Desmoid",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0079218"
+    },
+    {
+        "disease_code": "D025",
+        "disease_name": "Endolymphatic sac tumor",
+        "short_name": "Endolymph. Sac",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C2348239"
+    },
+    {
+        "disease_code": "D026",
+        "disease_name": "Fallopian tube cancer",
+        "short_name": "Fallopian cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "f",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0153579"
+    },
+    {
+        "disease_code": "D027",
+        "disease_name": "Gastrinoma",
+        "short_name": "Gastrinoma",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0017150"
+    },
+    {
+        "disease_code": "D028",
+        "disease_name": "Hemangioblastoma",
+        "short_name": "Hemangioblast.",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0206734"
+    },
+    {
+        "disease_code": "D029",
+        "disease_name": "Hepatoblastoma",
+        "short_name": "Hepatoblastoma",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "Select all that apply",
+        "umls_id": "C0206624"
+    },
+    {
+        "disease_code": "D030",
+        "disease_name": "Hodgkin lymphoma",
+        "short_name": "Hodgkin lymph",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": "C0019829"
+    },
+    {
+        "disease_code": "D031",
+        "disease_name": "Keratocanthoma",
+        "short_name": "Keratoacanth",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0022572"
+    },
+    {
+        "disease_code": "D032",
+        "disease_name": "Lhermitte-Duclos",
+        "short_name": "Lhermitte-Duc.",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0391826"
+    },
+    {
+        "disease_code": "D033",
+        "disease_name": "Pancreatic neuroendocrine tumor",
+        "short_name": "Panc neuroendocrine tumor",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0242363"
+    },
+    {
+        "disease_code": "D034",
+        "disease_name": "Paraganglioma/Pheochromocytoma",
+        "short_name": "Para/Pheo",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0030421/C0031511"
+    },
+    {
+        "disease_code": "D035",
+        "disease_name": "Parathyroid adenoma",
+        "short_name": "Parathyroid",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0262587"
+    },
+    {
+        "disease_code": "D036",
+        "disease_name": "Peritoneal cancer",
+        "short_name": "Peritoneal cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C1514428"
+    },
+    {
+        "disease_code": "D037",
+        "disease_name": "Pituitary adenoma",
+        "short_name": "Pituitary",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0032000"
+    },
+    {
+        "disease_code": "D038",
+        "disease_name": "Retinoblastoma",
+        "short_name": "RB",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0035335"
+    },
+    {
+        "disease_code": "D039",
+        "disease_name": "Rhabdoid tumor",
+        "short_name": "Rhabdoid tumor",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0206743"
+    },
+    {
+        "disease_code": "D040",
+        "disease_name": "Rhabdomyosarcoma of embryonal anaplastic subtype",
+        "short_name": "Rhabdomyo",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C4055470"
+    },
+    {
+        "disease_code": "D041",
+        "disease_name": "Sebaceous Adenoma/Carcinoma",
+        "short_name": "Sebaceous",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C1368816/C0206684"
+    },
+    {
+        "disease_code": "D042",
+        "disease_name": "Testicular sertoli cell cancer",
+        "short_name": "Testicular sertoli cell cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "m",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C0349671"
+    },
+    {
+        "disease_code": "D043",
+        "disease_name": "Thymic carcinoid tumor",
+        "short_name": "Thymic carc.",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": "C1336746"
+    },
+    {
+        "disease_code": "D044",
+        "disease_name": "Deep vein thrombosis (DVT)",
+        "short_name": "DVT",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0149871"
+    },
+    {
+        "disease_code": "D045",
+        "disease_name": "Familial hypercholesterolemia",
+        "short_name": "Fam Hyperchol",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0020445"
+    },
+    {
+        "disease_code": "D046",
+        "disease_name": "Hemophilia",
+        "short_name": "Hemophilia",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0684275"
+    },
+    {
+        "disease_code": "D047",
+        "disease_name": "High blood pressure",
+        "short_name": "HBP",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0020538"
+    },
+    {
+        "disease_code": "D048",
+        "disease_name": "High cholesterol",
+        "short_name": "High chol",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0020443"
+    },
+    {
+        "disease_code": "D049",
+        "disease_name": "Pulmonary embolism (PE)",
+        "short_name": "PE",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0034065"
+    },
+    {
+        "disease_code": "D050",
+        "disease_name": "Sickle cell disease",
+        "short_name": "Sickle cell",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0002895"
+    },
+    {
+        "disease_code": "D051",
+        "disease_name": "Thalassemia",
+        "short_name": "Thalassemia",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0039730"
+    },
+    {
+        "disease_code": "D052",
+        "disease_name": "Von Willebrand disease",
+        "short_name": "Von Willebrand",
+        "disease_type": "blood",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0042974"
+    },
+    {
+        "disease_code": "D053",
+        "disease_name": "Arrhythmia",
+        "short_name": "Arrhythmia",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0003811"
+    },
+    {
+        "disease_code": "D054",
+        "disease_name": "Arrhythmogenic right ventricular cardiomyopathy/dysplasia (ARVC/D)",
+        "short_name": "ARVC/D",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0349788"
+    },
+    {
+        "disease_code": "D055",
+        "disease_name": "Atrial fibrillation (Afib)",
+        "short_name": "Afib",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0004238"
+    },
+    {
+        "disease_code": "D056",
+        "disease_name": "Brugada syndrome",
+        "short_name": "Brugada",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C1142166"
+    },
+    {
+        "disease_code": "D057",
+        "disease_name": "Cardiomyopathy",
+        "short_name": "Cardiomyopathy",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0878544"
+    },
+    {
+        "disease_code": "D058",
+        "disease_name": "Catecholaminergic polymorphic ventricular tachycardia (CPVT)",
+        "short_name": "CPVT",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C1631597"
+    },
+    {
+        "disease_code": "D059",
+        "disease_name": "Dilated cardiomyopathy",
+        "short_name": "DCM",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0007193"
+    },
+    {
+        "disease_code": "D060",
+        "disease_name": "Heart attack",
+        "short_name": "Heart attack",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0027051"
+    },
+    {
+        "disease_code": "D061",
+        "disease_name": "Heart disease",
+        "short_name": "Heart disease",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0018799"
+    },
+    {
+        "disease_code": "D062",
+        "disease_name": "Hypertrophic cardiomyopathy",
+        "short_name": "HCM",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0007194"
+    },
+    {
+        "disease_code": "D063",
+        "disease_name": "Long QT syndrome",
+        "short_name": "LQT",
+        "disease_type": "heart",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0023976"
+    },
+    {
+        "disease_code": "D064",
+        "disease_name": "Alzheimer disease",
+        "short_name": "Alz",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0002395"
+    },
+    {
+        "disease_code": "D065",
+        "disease_name": "Attention deficit disorder (ADD)",
+        "short_name": "ADD",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0041671"
+    },
+    {
+        "disease_code": "D066",
+        "disease_name": "Attention deficit hyperactivity disorder (ADHD)",
+        "short_name": "ADHD",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C1263846"
+    },
+    {
+        "disease_code": "D067",
+        "disease_name": "Autism",
+        "short_name": "Autism",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0004352"
+    },
+    {
+        "disease_code": "D068",
+        "disease_name": "Dementia",
+        "short_name": "Dementia",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0497327"
+    },
+    {
+        "disease_code": "D069",
+        "disease_name": "Developmental delay",
+        "short_name": "DD",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0424605"
+    },
+    {
+        "disease_code": "D070",
+        "disease_name": "Epilepsy",
+        "short_name": "Epilepsy",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0014544"
+    },
+    {
+        "disease_code": "D071",
+        "disease_name": "Huntington disease",
+        "short_name": "HD",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0020179"
+    },
+    {
+        "disease_code": "D072",
+        "disease_name": "Intellectual disabilities",
+        "short_name": "ID",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C3714756"
+    },
+    {
+        "disease_code": "D073",
+        "disease_name": "Learning problems",
+        "short_name": "Learning prob",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0851265"
+    },
+    {
+        "disease_code": "D074",
+        "disease_name": "Mental illness",
+        "short_name": "Mental illness",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0004936"
+    },
+    {
+        "disease_code": "D075",
+        "disease_name": "Parkinson disease",
+        "short_name": "Parkinson",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0030567"
+    },
+    {
+        "disease_code": "D076",
+        "disease_name": "Seizures",
+        "short_name": "Seizures",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0036572"
+    },
+    {
+        "disease_code": "D077",
+        "disease_name": "Spinal muscular atrophy",
+        "short_name": "SMA",
+        "disease_type": "mental-behavioral-neurological",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0026847"
+    },
+    {
+        "disease_code": "D078",
+        "disease_name": "Asthma",
+        "short_name": "Asthma",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0004096"
+    },
+    {
+        "disease_code": "D079",
+        "disease_name": "Birth defects (spina bifida, cleft palate, heart defects, etc.)",
+        "short_name": "Birth defects",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0000768"
+    },
+    {
+        "disease_code": "D080",
+        "disease_name": "Blindness",
+        "short_name": "Blindness",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0456909"
+    },
+    {
+        "disease_code": "D081",
+        "disease_name": "Chronic obstructive pulmonary disease (COPD)",
+        "short_name": "COPD",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0024117"
+    },
+    {
+        "disease_code": "D082",
+        "disease_name": "Crohn's disease",
+        "short_name": "Crohn's",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0010346"
+    },
+    {
+        "disease_code": "D083",
+        "disease_name": "Cystic fibrosis",
+        "short_name": "CF",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0010674"
+    },
+    {
+        "disease_code": "D084",
+        "disease_name": "Deafness",
+        "short_name": "Deafness",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0011053"
+    },
+    {
+        "disease_code": "D085",
+        "disease_name": "Diabetes",
+        "short_name": "Diabetes",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0011849"
+    },
+    {
+        "disease_code": "D086",
+        "disease_name": "Emphysema",
+        "short_name": "Emphysema",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0034067"
+    },
+    {
+        "disease_code": "D087",
+        "disease_name": "Hemochromatosis",
+        "short_name": "Hemochrom.",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0018995"
+    },
+    {
+        "disease_code": "D088",
+        "disease_name": "Irritable bowel syndrome",
+        "short_name": "IBS",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0022104"
+    },
+    {
+        "disease_code": "D089",
+        "disease_name": "Kidney disease",
+        "short_name": "Kidney disease",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0022658"
+    },
+    {
+        "disease_code": "D090",
+        "disease_name": "Muscular dystrophy",
+        "short_name": "Muscular dys",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0026850"
+    },
+    {
+        "disease_code": "D091",
+        "disease_name": "Osteoporosis",
+        "short_name": "Osteoporosis",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0029456"
+    },
+    {
+        "disease_code": "D092",
+        "disease_name": "Stroke",
+        "short_name": "Stroke",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0038454"
+    },
+    {
+        "disease_code": "D093",
+        "disease_name": "Tay-Sachs",
+        "short_name": "Tay-Sachs",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0039373"
+    },
+    {
+        "disease_code": "D094",
+        "disease_name": "Type 1 diabetes",
+        "short_name": "T1DM",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0011854"
+    },
+    {
+        "disease_code": "D095",
+        "disease_name": "Type 2 diabetes",
+        "short_name": "T2DM",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0011860"
+    },
+    {
+        "disease_code": "D096",
+        "disease_name": "Ulcerative colitis",
+        "short_name": "Ulc. colitis",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0009324"
+    },
+    {
+        "disease_code": "D097",
+        "disease_name": "Unique skin spots or patterns (cafe-au-lait, shagreen patches, port wine stains, etc.)",
+        "short_name": "skin findings",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0848332"
+    },
+    {
+        "disease_code": "D098",
+        "disease_name": "Very tall or short stature compared to the rest of the family",
+        "short_name": "abnl stature",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "",
+        "main_question": "",
+        "umls_id": "C0262361"
+    },
+    {
+        "disease_code": "D099",
+        "disease_name": "Bladder cancer",
+        "short_name": "Bladder cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D100",
+        "disease_name": "Esophageal cancer",
+        "short_name": "Esophageal cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D101",
+        "disease_name": "Liver cancer",
+        "short_name": "Liver cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D102",
+        "disease_name": "Lung cancer",
+        "short_name": "Lung cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D103",
+        "disease_name": "Non-Hodgkin lymphoma",
+        "short_name": "NH lymphoma",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D104",
+        "disease_name": "Oral cancer",
+        "short_name": "Oral cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D105",
+        "disease_name": "Pseudoxanthoma Elasticum (PXE)",
+        "short_name": "PXE",
+        "disease_type": "other_conditions",
+        "gender_specific": "",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D106",
+        "disease_name": "Cervical cancer",
+        "short_name": "Cervical cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "f",
+        "show": "always",
+        "main_question": "",
+        "umls_id": ""
+    },
+    {
+        "disease_code": "D107",
+        "disease_name": "Other Cancer",
+        "short_name": "Other Cancer",
+        "disease_type": "cancer-polyps",
+        "gender_specific": "",
+        "show": "expanded",
+        "main_question": "",
+        "umls_id": ""
+    }
+]

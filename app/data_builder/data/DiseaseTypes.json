@@ -1,0 +1,27 @@
+[
+    {
+        "code": "",
+        "short_name": "blood",
+        "full_name": "Blood"
+    },
+    {
+        "code": "",
+        "short_name": "cancer-polyps",
+        "full_name": "Cancer"
+    },
+    {
+        "code": "",
+        "short_name": "heart",
+        "full_name": "Heart"
+    },
+    {
+        "code": "",
+        "short_name": "mental-behavioral-neurological",
+        "full_name": "Mental/Behavioral/Neurological"
+    },
+    {
+        "code": "",
+        "short_name": "other_conditions",
+        "full_name": "Others"
+    }
+]
