@@ -30,7 +30,7 @@ DISEASE_JSON_COLNAMES = (
     "umls_id",
 )
 DISEASE_TBL_COLNAMES = (
-    "disease_type",
+    "disease_type_id",
     "code",
     "full_name",
     "short_name",
@@ -58,7 +58,7 @@ def timer(func):
 
 
 @timer
-def execute_query(raw_query, many=False):
+def execute_query(raw_query):
     with psycopg2.connect(**DB_INFO) as conn:
         with conn.cursor() as cursor:
             cursor = conn.cursor()
@@ -129,41 +129,19 @@ def create_diseasetypes():
         for diseasetype in diseasetype_list:
             code, short_name, full_name = diseasetype.values()
             values.append(f"('{code}','{short_name}','{full_name}')")
-        execute_query(generate_raw_query(TABLE_DISEASETYPE, colnames, values), False)
+        execute_query(generate_raw_query(TABLE_DISEASETYPE, colnames, values))
 
 
 def delete_diseasetypes_all():
     # Delete table data
     print("\nDeleting disease types ...")
-    execute_query(f"DELETE FROM {TABLE_DISEASETYPE};", False)
+    execute_query(f"DELETE FROM {TABLE_DISEASETYPE};")
     # Reset sequence IDs
     print(f"\nResetting sequence IDs ...")
-    execute_query(
-        f"ALTER SEQUENCE public.{TABLE_DISEASETYPE}_id_seq RESTART WITH 1;", False
-    )
+    execute_query(f"ALTER SEQUENCE public.{TABLE_DISEASETYPE}_id_seq RESTART WITH 1;")
 
 
 def create_diseases():
-    # def generate_raw_query(colnames, values):
-    #     raw_query = f"""
-    #     INSERT INTO {TABLE_DISEASETYPE} ({colnames})
-    #     VALUES {",".join(values)}
-    #     RETURNING (id,{colnames});
-    #     """
-    #     return raw_query
-
-    # def generate_raw_query(*args, **kwargs):
-    #     disease = {**kwargs}
-    #     colnames = ",".join(DISEASE_COLNAMES)
-    #     values = [f"'{disease[col]}'" for col in DISEASE_COLNAMES]
-    #     raw_query = f"""
-    #     INSERT INTO {TABLE_DISEASE} ({colnames})
-    #     VALUES ({",".join(values)})
-    #     RETURNING (id,{colnames})
-    #     ;
-    #     """
-    #     return raw_query
-
     with open(DISEASES_JSON, "r") as json_file:
         disease_list: list[dict] = json.load(json_file)
         colnames = ",".join(DISEASE_TBL_COLNAMES)
@@ -184,41 +162,42 @@ def create_diseases():
 
             # Change key names to matching table columns.
             code = disease_code
-            full_name = disease_name
+            full_name = f"{disease_name}".replace("'", "''")  # fix for single quote marks
+            short_name = f"{short_name}".replace("'", "''")   # fix for single quote marks
             specific_gender = gender_specific
             is_hidden = show == "" or show is None
 
+            # Get Disease Type ID
             disease_type = get_diseasetype_by_name(disease_type)
             disease_type_id = disease_type[0] if disease_type else None
 
-            values.append(
-                f"('{disease_type_id}','{code}','{full_name}','{short_name}','{specific_gender}','{umls_id}','{is_hidden}')"
-            )
-
-            print(f"Disease: {disease}", f"DiseaseTypeID: {disease_type_id}")
-            # execute_query(generate_raw_query(
-            #     disease_type_id=disease_type_id,
-            #     **disease))
-        generate_raw_query(TABLE_DISEASETYPE, colnames, values)
-        # execute_query(generate_raw_query(TABLE_DISEASETYPE, colnames, values), False)
+            values_list = [
+                disease_type_id,
+                code,
+                full_name,
+                short_name,
+                specific_gender,
+                umls_id,
+                is_hidden,
+            ]
+            values.append(f"({','.join([f'\'{i}\'' for i in values_list])})")
+        execute_query(generate_raw_query(TABLE_DISEASE, colnames, values))
 
 
 def delete_diseases_all():
     # Delete table data
     print("\nDeleting diseases ...")
-    execute_query(f"DELETE FROM {TABLE_DISEASE};", False)
+    execute_query(f"DELETE FROM {TABLE_DISEASE};")
     # Reset sequence IDs
     print(f"\nResetting sequence IDs ...")
-    execute_query(
-        f"ALTER SEQUENCE public.{TABLE_DISEASE}_id_seq RESTART WITH 1;", False
-    )
+    execute_query(f"ALTER SEQUENCE public.{TABLE_DISEASE}_id_seq RESTART WITH 1;")
 
 
 def run():
-    # delete_diseasetypes_all()
-    # create_diseasetypes()
-
     delete_diseases_all()
+    delete_diseasetypes_all()
+    
+    create_diseasetypes()
     create_diseases()
 
 

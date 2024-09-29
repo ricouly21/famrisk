@@ -28,7 +28,7 @@ class Disease(models.Model):
     full_name = models.CharField(max_length=255, null=True, blank=True)
     short_name = models.CharField(max_length=50, null=True, blank=True)
     specific_gender = models.CharField(max_length=1, null=True, blank=None)
-    umls_id = models.CharField(max_length=10, null=True, blank=True)
+    umls_id = models.CharField(max_length=100, null=True, blank=True)
     is_hidden = models.BooleanField(default=False)
 
     class Meta:
